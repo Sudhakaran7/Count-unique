@@ -1,0 +1,51 @@
+You are given with a string, you have to find all the substring of the given string,
+if the substring conatins unique characters, then find it's length, if the substring contains 
+non unique characters then assign the length of that substring as 1
+return the sum of length of all substrings
+Constraint: Since the answer can be very large, return the answer modulo 10 ^ 9 + 7.
+
+Input Description:
+S given a string
+
+Output Description:
+the sum of length of all substrings
+
+Sample Input:
+abc
+
+Sample Output:
+10
+
+Explanation:
+the substrings are a,b,c,ab,bc,ca,abc
+1 + 1 + 1 + 2 + 2 + 3 = 10
+
+Sample Input:
+abcd
+
+Sample Output:
+20
+
+Sample Input:
+qweqw
+
+Sample Output:
+27
+
+Sample Input:
+guvi
+
+Sample Output:
+20
+
+Sample Input:
+helloworld
+
+Sample Output:
+128
+
+Sample Input:
+torrent
+
+Sample Output:
+58
